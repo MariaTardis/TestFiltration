@@ -23,7 +23,7 @@ namespace selenium_third {
 		}
 
 		[Test]
-		public void ExecuteTestInputExistentTown() {
+		public void ExecuteTestInputExistentTown_1() {
 			IWebElement town = PropertiesCollection.driver.FindElement(By.ClassName("world__searchInput"));
 			Console.WriteLine("Select the line with -Input the name of the town-");
 			town.SendKeys("Новосибирск");
@@ -31,7 +31,7 @@ namespace selenium_third {
 		}
 
 		[Test]
-		public void ExecuteTestInputExistentTownByLatin() {
+		public void ExecuteTestInputExistentTownByLatin_6() {
 			IWebElement town = PropertiesCollection.driver.FindElement(By.ClassName("world__searchInput"));
 			Console.WriteLine("Select the line with -Input the name of the town-");
 			town.SendKeys("Vjcrdf");
